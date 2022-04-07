@@ -13,7 +13,7 @@ void getNext ( vector<int>& next, string s ) {
 			j++;
 		next [i] = j;
 	}
-	for ( auto k : next )
+	for ( auto k : next )				//打印查看next数组
 		cout << k << " ";
 }
 int main ( ) {
